@@ -1,4 +1,4 @@
-	#!/usr/bin/python -tt
+#!/usr/bin/python -tt
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
@@ -25,10 +25,7 @@
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
   # +++your code here+++
-  if count > 0  and count < 10:
-  	  return 'Number of donuts: ' + str(count)
-  else:
-  	  return 'Number of donuts: many'
+  return
 
 
 # B. both_ends
@@ -38,10 +35,7 @@ def donuts(count):
 # is less than 2, return instead the empty string.
 def both_ends(s):
   # +++your code here+++
-  if len(s) < 2:
-  	  return ''
-  else:
-  	  return s[:2] + s[-2:]
+  return
 
 
 # C. fix_start
@@ -55,10 +49,7 @@ def both_ends(s):
 # where all instances of stra have been replaced by strb.
 def fix_start(s):
   # +++your code here+++
-  char_one = s[0];
-  rest_string = s[1:]
-  s = char_one + rest_string.replace(char_one,'*')
-  return s
+  return
 
 
 # D. MixUp
@@ -70,11 +61,7 @@ def fix_start(s):
 # Assume a and b are length 2 or more.
 def mix_up(a, b):
   # +++your code here+++
-  str1_two_chars = a[0:2]
-  str1_remaining = a[2:]
-  str2_two_chars = b[0:2]
-  str2_remaining = b[2:]
-  return str2_two_chars + str1_remaining + ' ' + str1_two_chars + str2_remaining
+  return
 
 
 # Provided simple test() function used in main() to print
